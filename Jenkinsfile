@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/onojetathekid/aws-autoScale.git' 
+                git branch: 'main', url: 'https://github.com/AnunnakiRa/aws-terraform-working-test.git' 
             }
         }
         stage('Initialize Terraform') {
